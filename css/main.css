@@ -1,0 +1,140 @@
+
+body{
+   background-color: #eee;
+    margin: 0;
+}
+
+.nav{
+    font-family: 'Bubblegum Sans', cursive;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a:link{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none
+}
+.nav a:hover{
+    display:inline-block;
+    padding:10px;
+    color: white;
+    text-decoration: none
+}
+
+#headerhome{
+    width: 100%;
+    height:236px;
+    background-color:#D84934;
+    margin: 0;
+}
+h1{
+    font-family: 'Gugi', cursive;
+    margin: 0;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 40pt;
+    text-shadow: 2px 2px 1px #666666;
+}
+h2{
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    margin-top: 50px
+}
+p{
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    max-width: 640px;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 15pt
+    
+}
+
+#projects{
+    display: grid;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 320px 320px;
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+    justify-content:center;
+    grid-template-rows: auto;
+    grid-template-areas: "vector vector" "side tbm" "side indesign";
+    justify-items:center
+    
+    
+}
+#vector{
+    width: 700px;
+    height: 300px;
+    background-image: url(../assets/Conesa_AIFinal.jpg);
+    background-size: cover;
+    background-position-x:center;
+    background-position-y:center;
+    grid-area: vector;
+    opacity: 0.5
+    
+}
+#vector:hover{
+    opacity: 1
+}
+
+
+#raster{
+    width: 340px;
+    height: 420px;
+    background-image: url(../assets/Conesa-Victor-Raster-Final-Project.jpg);
+    background-size: cover;
+    background-position-x:center;
+    background-position-y:center;
+    grid-area: side;
+    opacity: 0.5
+    
+}
+#raster:hover{
+    opacity: 1
+}
+#tbm{
+    width: 340px;
+    height: 200px;
+    background-image: url(../assets/tmb_final.png);
+    background-size: cover;
+    background-position-x:center;
+    grid-area: tbm;
+    opacity: 0.5
+}
+#tbm:hover{
+    opacity: 1
+}
+#indesign{
+    width: 340px;
+    height: 200px;
+    background-image: url(../assets/indesign_final.png);
+    background-size: cover;
+    background-position-x:center;
+    grid-area: indesign;
+    opacity: 0.5
+}
+#indesign:hover{
+    opacity: 1
+}
+footer{
+    background-color: #434343;
+    height: 102px;
+    width: 100%;
+    margin-top:80px
+        
+}
+#footertext{
+    font-family: sans-serif;
+    color: white 
+}
